@@ -4,23 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d1919f84-be89-4221-b571-5ba9fd471837" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/core/BadPotion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/core/Effects.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/core/GameProcessClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/core/GoodPotion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/core/Grade.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/core/Ingridient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/core/Potion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
+    <list default="true" id="d1919f84-be89-4221-b571-5ba9fd471837" name="Changes" comment="0.1_ingridients_effects_configured">
+      <change afterPath="$PROJECT_DIR$/src/main/core/character/Character.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/data/effects_table.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/data/ingredients_table.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/core/BadPotion.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/core/Effects.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/core/Effect.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/core/GameProcessClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/core/GameProcessClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/core/GoodPotion.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/core/Ingridient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/core/Ingredient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/core/Potion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/core/Potion.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,7 +31,25 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="0.0_alpha" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="99ee65c5-ab7a-45eb-a228-ed5dd0a1091b" />
+        <option name="url" value="https://github.com/mykhailo-arkhipov/evil_potions.git" />
+      </UrlAndAccount>
+    </option>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -60,16 +73,37 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true"
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "D:/JavaRushTasks",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0"
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\User\IdeaProjects\EvilPotions\src\main\data" />
+    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="GameProcessClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="GameProcessClass" />
+      <module name="EvilPotions" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.GameProcessClass" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -80,17 +114,64 @@
       <option name="presentableId" value="Default" />
       <updated>1697564461288</updated>
     </task>
+    <task id="LOCAL-00001" summary="0.0">
+      <created>1697575752590</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1697575752591</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
+        <entry key="04e9464b-3ec1-402a-9489-40b8be32d469">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="roots">
+                    <value>
+                      <list>
+                        <option value="$PROJECT_DIR$" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
     </option>
+    <option name="OPEN_GENERIC_TABS">
+      <map>
+        <entry key="04e9464b-3ec1-402a-9489-40b8be32d469" value="TOOL_WINDOW" />
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="0.0" />
+    <MESSAGE value="0.1_ingridients_effects_configured" />
+    <option name="LAST_COMMIT_MESSAGE" value="0.1_ingridients_effects_configured" />
   </component>
 </project>
