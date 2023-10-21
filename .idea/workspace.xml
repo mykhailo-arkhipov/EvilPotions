@@ -4,18 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d1919f84-be89-4221-b571-5ba9fd471837" name="Changes" comment="0.1_ingridients_effects_configured">
-      <change afterPath="$PROJECT_DIR$/src/main/core/character/Character.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/data/effects_table.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/data/ingredients_table.txt" afterDir="false" />
+    <list default="true" id="d1919f84-be89-4221-b571-5ba9fd471837" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/core/AlchemyShop.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/core/BadPotion.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/core/Effects.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/core/Effect.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/core/Effect.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/core/Effect.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/core/GameProcessClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/core/GameProcessClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/core/GoodPotion.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/core/Ingridient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/core/Ingredient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/core/Grade.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/core/Grade.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/core/Ingredient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/core/Ingredient.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/core/Potion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/core/Potion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/core/character/Character.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/core/Character.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,6 +34,7 @@
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
   &quot;lastFilter&quot;: {
@@ -76,8 +74,9 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "last_opened_file_path": "D:/JavaRushTasks",
     "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0"
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.4764595",
+    "settings.editor.selected.configurable": "preferences.general"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -121,7 +120,14 @@
       <option name="project" value="LOCAL" />
       <updated>1697575752591</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="0.1_ingridients_effects_configured">
+      <created>1697837883045</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1697837883045</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

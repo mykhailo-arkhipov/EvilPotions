@@ -1,6 +1,6 @@
 public class Ingredient {
     public double price;
-    public Effect[] effects;
+    public final Effect[] effects;
     public final String name;
 
     public Ingredient(String name, Effect[] effects, double price) {

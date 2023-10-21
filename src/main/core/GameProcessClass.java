@@ -1,10 +1,9 @@
-import character.Character;
-
 import java.io.BufferedReader;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
 import java.util.ArrayList;
+import java.util.concurrent.ThreadLocalRandom;
 
 public class GameProcessClass {
 
@@ -13,13 +12,9 @@ public class GameProcessClass {
     static {
         try {
             listOfEffects = getEffects();
-            for (Effect effect : listOfEffects){
-                System.out.println(effect.getEffectName());
-            }
+            // for (Effect effect : listOfEffects){System.out.println(effect.getEffectName());}
             listOfIngredients = getIngredients();
-            for (Ingredient ingredient : listOfIngredients){
-                System.out.println(ingredient.name);
-            }
+            // for (Ingredient ingredient : listOfIngredients){System.out.println(ingredient.name);}
         } catch (FileNotFoundException e) {
             throw new RuntimeException("Map of Ingredients wasn't initialized");
         }
@@ -77,7 +72,13 @@ public class GameProcessClass {
 
     public static void main(String[] args) {
         Character character = new Character(0, 0);
-
+        int size = listOfIngredients.size();
+        int a = ThreadLocalRandom.current().nextInt(size);
+        int b = ThreadLocalRandom.current().nextInt(size);
+        int c = ThreadLocalRandom.current().nextInt(size);
+        Potion potion = new Potion(listOfIngredients.get(a), listOfIngredients.get(b),
+                listOfIngredients.get(c));
+        System.out.println(potion);
     }
 
 }

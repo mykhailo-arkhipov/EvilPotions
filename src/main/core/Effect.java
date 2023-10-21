@@ -1,6 +1,6 @@
 public class Effect {
     private final String effectName;
-    private final double price;
+    private double price;
     private final int ancestor1;
     private final int ancestor2;
     private final byte rank;
