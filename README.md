@@ -1,4 +1,4 @@
-<img width="1099" alt="gh_alch" src="https://github.com/mykhailo-arkhipov/EvilPotions/assets/122175623/27dd6537-e137-414a-95ad-055fadb242e0"># EvilPotions - example of making potions algorithm 
+# EvilPotions - example of making potions algorithm 
 
 #### What is this game about 
 An indie game about an evil alchemist trying to create the most horrifying potions possible, but it doesn't always work out. That's why sometimes he ends up with potions that have a positive effect when he's not even trying.
