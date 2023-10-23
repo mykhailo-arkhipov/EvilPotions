@@ -1,7 +1,8 @@
 # EvilPotions - example of making potions algorithm 
 
 **Release date ~02 or 03.2024*
-***To access the full repository, please contact me on LinkedIn.*
+
+**To access the full repository, please contact me on LinkedIn.*
 
 #### What is this game about 
 An indie game about an evil alchemist trying to create the most horrifying potions possible, but it doesn't always work out. That's why sometimes he ends up with potions that have a positive effect when he's not even trying.
