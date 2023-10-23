@@ -8,9 +8,7 @@ The primary platform is Android. The project is developed using the LibGDX frame
 
 #### Design Example
 
-<img width="1099" alt="gh_alch" src="https://github.com/mykhailo-arkhipov/EvilPotions/assets/122175623/cdd737e1-c981-40ee-99be-193d825bc8c8">
-
-<img width="183" alt="alch_exmpl" src="https://github.com/mykhailo-arkhipov/EvilPotions/assets/122175623/0a40501e-cfa2-42b0-a935-6fc8af2ceedf">
+<img width="1094" alt="alchmst" src="https://github.com/mykhailo-arkhipov/EvilPotions/assets/122175623/86fc0d59-313f-4bcb-af54-588733def804">
 
 #### How to view the code in action?
 You can download this code and run it in any IDE that supports Java version 17 and higher.
